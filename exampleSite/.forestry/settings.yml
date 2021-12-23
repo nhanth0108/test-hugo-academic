@@ -7,14 +7,12 @@ sections:
 - type: document
   path: exampleSite/content/post
   label: Post
-  match: "**/*"
-  read_only: false
 - type: directory
   path: exampleSite/content/post
   label: Post
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: exampleSite/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
